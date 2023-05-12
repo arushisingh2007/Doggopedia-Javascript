@@ -1,0 +1,451 @@
+body
+{
+	/*used from https://www.w3schools.com/cssref/css_colors.php*/
+	background-color: rgba(198,205,115,255);
+}
+
+.back
+{
+	background-color: #fdf3d0;
+	/*used from https://www.w3schools.com/css/css3_buttons.asp*/
+	border-radius: 25px;
+	font-size: 30px;
+	margin-left: -170px; 
+}
+
+/* text shadow used from https://www.w3schools.com/cssref/css3_pr_text-shadow.php*/
+h2
+{
+    color: #FBEEC1;
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	line-height: 50px;
+}
+
+.simInstruct
+{
+
+	font-size: 30px;
+	font-family: Arial;
+	text-align: center;
+}
+.info1
+{
+	color: #FBEEC1;
+	font-size: 25px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 2px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.msg
+{
+	color: #FBEEC1;
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+.msg2
+{
+	color: #FBEEC1;
+	font-size: 90px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+	
+}
+
+.msg3
+{
+	color: #FBEEC1;
+	font-size: 41px;
+	font-family: Sofia;
+	text-align: center;
+	text-shadow: 3px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	
+}
+
+.dog
+{
+	color: #FBEEC1;
+	font-size: 40px;
+	font-family: Sofia;
+	text-align: center;
+	text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+.bg
+{
+
+  position: fixed; 
+  top: 65%; 
+  left: 5%; 
+  width: 50%; 
+  height: 100%;
+}
+
+.gold
+{
+  position: fixed; 
+  top: 65%; 
+  left: 75%; 
+  width: 50%; 
+  height: 50%;
+}
+ 
+.itch
+{
+  position: fixed; 
+  top: 70%; 
+  left: 43%; 
+  width: 50%; 
+  height: 50%;
+}
+
+.poodleThree
+{
+  position: fixed; 
+  top: 50%; 
+  left: 10%; 
+}
+
+.dalmatian
+{
+  position: fixed; 
+  top: 55%; 
+  left: 65%;
+}
+.ball
+{
+  position: fixed; 
+  top: 64%; 
+  left: 20%; 
+}
+.thumbs
+{
+  position: fixed; 
+  top: 60%; 
+  left: 55%; 
+}
+	
+/*transform used from https://www.w3schools.com/cssref/css_pr_translate.php*/
+.info
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 35px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(50%, 10%);
+}
+.name
+{
+	border-radius: 25px;
+	background-color: #fdf3d0;
+	font-size: 35px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(200%, 10%);
+}
+
+.sim
+{
+	position: absolute;
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 35px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(350%, 10%);
+}
+
+.back
+{
+	border-radius: 25px;
+	background-color: #fdf3d0;
+	font-size: 35px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(200%, 10%);
+}
+
+.health
+{
+	border-radius: 25px;
+	background-color: #fdf3d0;
+	font-size: 45px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(235%, 600%);
+}
+
+.start
+{
+    border-radius: 25px;
+	background-color: #fdf3d0;
+	font-size: 47px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(175%, 700%);
+}
+
+.play
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 45px;
+	margin-left: 380px;
+	margin-top: 150px;
+}
+
+.home
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 45px;
+	margin-left: 200px;
+	margin-top: 150px;
+}
+.basic
+{
+	border-radius: 25px;
+	background-color: #fdf3d0;
+	font-size: 45px;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(85%, 1000%);
+}
+
+/*grid layout elements used from: https://www.w3schools.com/css/css_grid.asp*/
+.grid-container
+{
+	display: grid;
+	justify-content: space-evenly;
+	column-gap: 10px;
+	row-gap: 10px;
+	grid-template-rows: auto auto auto auto;
+
+}
+
+.dog1
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog2
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog3
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog4
+{
+	background-color: #fdf3d0;
+	border-radius: 30px;
+	font-size: 30px;
+}
+.dog5
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog6
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog7
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog8
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog9
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog10
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog11
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog12
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog13
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog14
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.dog15
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 30px;
+}
+.item1{
+	grid-row: 1 / 3 / 5;
+}
+
+.item2{
+	grid-row: 1/span 4;
+}
+.item3{
+	grid-row: 1/span 4;
+}
+
+.item4{
+	grid-row: 1/span 4;
+}
+
+
+.dogName{
+	color: #FBEEC1;
+	font-size: 50px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	line-height: 40px;
+}
+
+.dogInfo{
+    color: black;
+	font-size: 23px;
+	font-family: Times New Roman;
+	text-align: left;
+	margin-left: 50px;
+	line-height: 31px;
+}
+
+.dogPic{
+  position: absolute;  
+  top: 30%; 
+  left: 50%; 
+  width: 50%; 
+  height: 50%;
+}		
+
+
+h1
+{
+  font-size: 34px;
+}
+
+.submit
+{
+	 background-color: #fdf3d0;
+	 border-radius: 25px;
+	 font-size: 25px;
+	 margin-left: 10px;
+}
+
+.scoreHealth
+{
+    color: #FBEEC1;
+    font-size: 60px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 5px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	line-height: 60px;
+}
+
+.scoreNow
+{
+    color: #FBEEC1;
+    font-size: 80px;
+	font-family: Arial;
+	text-align: center;
+	text-shadow: 4px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	line-height: 70px;
+}
+
+.simulation
+{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 330px;
+}
+
+.submitHere
+{
+	background-color: #fdf3d0;
+	border-radius: 25px;
+	font-size: 24px;
+	margin-left: 625px;
+    text-align: center;
+}
+
+.simQ
+{	
+  text-align:center;
+  font-size: 30px;
+}
+
+.simDog
+{
+  position: absolute; 
+  top: 25%; 
+  left: 35%; 
+ 
+}
+
+.simNow
+{
+
+  text-align: center;
+  font-size: 35px;
+}
+
+.testDog
+{
+  position: absolute; 
+  top: 5%; 
+  left: 70%; 
+}
+
+.testDog2
+{
+  position: absolute; 
+  top: 63%; 
+  left: 62%;
+}
+
+.testDog3
+{
+  position: absolute; 
+  top: 113%; 
+  left: 67%;
+}
